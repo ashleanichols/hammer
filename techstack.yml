@@ -1,0 +1,136 @@
+repo_name: ashleanichols/hammer
+report_id: 8acc9bb75fb82b142cc08c5cdc8693f1
+repo_type: Public
+timestamp: '2023-11-09T16:55:45+00:00'
+requested_by: oleksii-dowjones
+provider: github
+branch: master
+detected_tools_count: 11
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Ruby
+  description: A dynamic, interpreted, open source programming language with a focus
+    on simplicity and productivity
+  website_url: https://www.ruby-lang.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source: docs/Gemfile
+  last_updated_by: Oleg Palij
+  last_updated_on: 2018-07-19 15:25:10.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: docs/Dockerfile
+  last_updated_by: Oleg Palij
+  last_updated_on: 2018-07-19 15:25:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: requirements.txt
+  last_updated_by: pranav1688
+  last_updated_on: 2018-07-19 15:21:41.000000000 Z
+- name: Terraform
+  description: Describe your complete infrastructure as code and build resources across
+    providers
+  website_url: https://www.terraform.io/
+  license: MPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/1276/default_2316907c4199f912e2ed79cbdb99025c9e5e2665.png
+  detection_source: deployment/terraform/terraform.tf
+  last_updated_by: pranav1688
+  last_updated_on: 2018-07-19 15:21:41.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source: requirements.txt
+  last_updated_by: pranav1688
+  last_updated_on: 2018-07-19 15:21:41.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/boto3
+  version: 1.7.84
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: pranav1688
+  last_updated_on: 2018-07-19 15:21:41.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source: hammer/identification/lambdas/requirements.txt
+  last_updated_by: Oleg Palij
+  last_updated_on: 2018-08-06 12:24:41.000000000 Z
+- name: slackclient
+  description: Slack API clients for Web API and RTM API
+  package_url: https://pypi.org/slackclient
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20040/default_77eeab9aff24a2723c1f19fed32966a15b17d874.png
+  detection_source: hammer/identification/lambdas/logs-forwarder/requirements.txt
+  last_updated_by: pranav1688
+  last_updated_on: 2018-07-19 15:21:41.000000000 Z
